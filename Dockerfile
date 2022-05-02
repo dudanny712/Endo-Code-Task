@@ -9,4 +9,4 @@ RUN npm install -g serve
 RUN serve -s build
 ADD src /usr/src/app/src
 ADD public/usr/src/app/public
-CMD["yarn","start"]
+CMD ["yarn","start"]
