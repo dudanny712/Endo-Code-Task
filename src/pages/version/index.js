@@ -12,7 +12,7 @@ const Version = () => {
         <h1>Name: {PACKAGE_NAME}</h1>
        <h1>Version: {PACKAGE_VERSION}</h1>
        <h1> Git Hash: {gitInfo.commit.hash}</h1>
-       
+    
       
     </div>
     
