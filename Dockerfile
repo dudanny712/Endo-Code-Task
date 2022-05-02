@@ -7,6 +7,6 @@ RUN npm install
 RUN npm run build
 RUN npm install -g serve
 RUN serve -s build
-ADD src/usr/src/app/src
+ADD src /usr/src/app/src
 ADD public/usr/src/app/public
 CMD["yarn","start"]
